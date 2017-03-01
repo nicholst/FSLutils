@@ -3,7 +3,8 @@
 # Script: PlotFeatMFX.R
 # Purpose: Make a graphical description of a 2nd level FLAME analysis in FSL
 # Author: T. Nichols
-# Version: $Id$
+# Version: http://github.com/nicholst/FSLutils/commit/$Format:%h$
+#          $Format:%ci$
 #
 # Requires companion shell script PlotFeatMFX.sh to extract data from Feat result directory.
 
