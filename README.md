@@ -1,7 +1,7 @@
 # FSLutils
 These are a collection of utilities for FSL, slowly being migrated from my FSL Scripts page, http://warwick.ac.uk/tenichols/scripts/fsl.
 
-## fsl_fdr.sh
+## [fsl_fdr.sh]("fsl_fdr.sh")
 
 Based on a zstat, tstat or randomise P-value image creates an image of
 1 minus FDR-corrected P-values; optionally creates a rendering
