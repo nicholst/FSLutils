@@ -127,7 +127,7 @@ else
     fi
     fslmaths "$Zstat" -ztop -mas "$Mask" ${Tmp}-pval
 fi
-fdr -i ${Tmp}-pval -m "$Mask" -o ${Tmp}-fdrpval
+fdr -i ${Tmp}-pval -m "$Mask" -a ${Tmp}-fdrpval
 fslmaths ${Tmp}-fdrpval -min 1 -mul -1 -add 1 -mas "$Mask" "$FDRout"
 
 
