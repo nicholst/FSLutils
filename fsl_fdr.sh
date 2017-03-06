@@ -2,8 +2,9 @@
 #
 # Script: fsl_fdr
 # Purpose: Take a z image and produce a FDR rendered_thresh_fdrzstat
-# Author:
-# Version: $Id$
+# Author: T. Nichols
+# Version: http://github.com/nicholst/FSLutils/tree/$Format:%h$
+#          $Format:%ci$
 #
 
 ###############################################################################
