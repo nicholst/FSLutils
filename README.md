@@ -1,7 +1,7 @@
 # FSLutils
 These are a collection of utilities for FSL, slowly being migrated from my FSL Scripts page, http://warwick.ac.uk/tenichols/scripts/fsl.
 
-## [fsl_fdr.sh]("fsl_fdr.sh")
+## [fsl_fdr.sh](https://raw.githubusercontent.com/nicholst/FSLutils/master/fsl_fdr.sh)
 
 Based on a zstat, tstat or randomise P-value image creates an image of
 1 minus FDR-corrected P-values; optionally creates a rendering
@@ -29,7 +29,7 @@ fsl_fdr.sh -Tdf $dof spmT_0001 0 spmT_0001_Pfdr
 where setting the mask name to "0" has the effect of using an implicit
 mask (<>0 means in the brain).
 
-## PlotFeatMFX: `PlotFeatMFX.sh` & `PlotFeatMFX.R`
+## PlotFeatMFX: [PlotFeatMFX.sh](https://raw.githubusercontent.com/nicholst/FSLutils/master/PlotFeatMFX.sh) & [PlotFeatMFX.R](https://raw.githubusercontent.com/nicholst/FSLutils/master/PlotFeatMFX.R)
 
 This pair of companion scripts produces a plot that visualizes a
 one-sample mixed effects result at a given voxel. Showing the effect
