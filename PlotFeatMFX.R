@@ -57,7 +57,7 @@ PlotFeatMFX <- function(BaseNm) {
   #
   # Second plot, intrasubject variance estimates
   #
-  Vars=t(matrix(c(rep(sigsG,N),sigsG+varcopes),ncol=2))
+  Vars=t(matrix(c(rep(sigsG,N),varcopes),ncol=2))
   # print(c(mean(varcopes),mean(varcopes)+sigsG,AvgVar,AvgVar+sigsG,SEOLS^2*N))
   barplot(Vars,
           ylab=expression(sigma[G]^2+Var(paste(c,hat(beta)[k]))),
