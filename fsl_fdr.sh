@@ -35,7 +35,7 @@ FDR-corrected P-values).  Replace mask with "0" to have an implicit mask compute
 the exact zero voxels in the image.
 
 OPTIONS
-  -Tdf <df>  Image is *not* a Z, but rather is T image with specified degrees of freedom
+  -tdf <df>  Image is *not* a Z, but rather is T image with specified degrees of freedom
   -1mp       Image is *not* a Z, but rather is a 1-minus-uncorrected P-value image
              (e.g. as produced by randomise, *_vox_p_*, or *_tfce_p_*)      
   -rend <BgImg> <OutRndImg>
