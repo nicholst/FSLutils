@@ -15,7 +15,7 @@ gunzip /tmp/$$.nii.gz # Uncompress once, instead of repeatedly inside the loop
 # Simulate!
 for i in $(seq $Nimg) ; do
     fNm=$(printf "SimImg_%05d" $i)
-    fslmaths /tmp/$$ -seed $RANDOM \
+    fslmaths /tmp/$$ -seed $(echo "$RANDOM * $RANDOM" | bc -l) \
 	     -randn -kernel gauss $sigma -fmean \
 	     -div $sd \
 	     -mas $FD/MNI152_T1_2mm_brain_mask \
